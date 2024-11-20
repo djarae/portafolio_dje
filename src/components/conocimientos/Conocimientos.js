@@ -1,5 +1,4 @@
 import Tecnologias from './tecnologias/Tecnologias.js';
-import Espacios from '../espacios/Espacios.js';
 
 
 
@@ -9,7 +8,6 @@ function Conocimientos() {
             <p class="h1 row justify-content-center" > 
                 Conocimientos
             </p>
-          <Espacios cantidad="3"></Espacios> 
 
             <div class="container col-6 rounded bg-transparent  text-dark " >
                   <table class="table  table-ligth table-striped    justify-content-center " >

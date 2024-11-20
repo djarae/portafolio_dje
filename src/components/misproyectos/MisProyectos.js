@@ -1,5 +1,4 @@
 import Portfolio from './portfolio/Portfolio.js';
-import Espacios from '../espacios/Espacios.js';
 
 
 function MisProyectos() {
