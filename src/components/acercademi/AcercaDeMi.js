@@ -4,8 +4,6 @@ import './acercademi.css';
 
 function AcercaDeMi() {
   return (
-    <div class="container" >
-      <header className="App-header">
         <div  class="panel panel-default"    className="divAcercaDeMi">
             <h1 className='h1TitutloAcercaDeMi'>
                 Acerca De Mi
@@ -14,8 +12,6 @@ function AcercaDeMi() {
               {AcercaDeMiTexto[0].texto}
             </h1>
         </div >
-      </header>
-    </div>
   );
 }
 export default AcercaDeMi;

@@ -1,0 +1,10 @@
+.divTexto{
+    float:left;
+    width: 50%;
+}
+
+.divFotoPerfil{
+    float:right;
+    width: 50%;
+}
+
