@@ -1,18 +1,12 @@
 .App-header {
-
   font-size: calc(10px + 2vmin);
-
   color: white;
   background-color: #07022c;
-
   position: fixed;
-
   left: 0;
   top: 0 ;
   width: 100%;
   border: 3px solid #FF8000;
-   
- 
 }
 
 .navBar{
@@ -28,8 +22,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
-  
 }
 
 .sectionComponente {

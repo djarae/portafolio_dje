@@ -1,4 +1,31 @@
 .parrafosProyectos{
-
     display : 6
 }
+
+
+.iconoDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.iconoEstilos{
+    height: 100px;
+      width: 100px; 
+}
+
+
+.tituloPortafolio{
+    font-Size: 3rem;
+    text-align:center;
+
+  font-style: oblique;
+}
+
+.textoPortafolio{
+    font-Size: 1.25rem;
+    text-align:center;
+    font-style: italic;
+}
+
+

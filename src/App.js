@@ -12,10 +12,10 @@ function App() {
     <div>
       <header className="App-header">
         <nav className="navBar">
-          <a href="#home"  style={{ fontSize: "2.2rem"}}>Home</a>
-          <a href="#proyectos"  style={{ fontSize: "2.2rem"}}>Proyectos</a>
-          <a href="#conocimientos"  style={{ fontSize: "2.2rem"}}>Conocimientos</a>
-          <a href="#contacteme"  style={{ fontSize: "2.2rem"}}>Contacteme</a>
+          <a href="#home"  style={{ fontSize: "2.3rem",fontFamily: "ui-sans-serif",fontWeight:"600"}}>Home</a>
+          <a href="#proyectos"  style={{ fontSize: "2.3rem",fontFamily: "ui-sans-serif",fontWeight:"600"}}>Proyectos</a>
+          <a href="#conocimientos"  style={{ fontSize: "2.3rem",fontFamily: "ui-sans-serif",fontWeight:"600"}}>Conocimientos</a>
+          <a href="#contacteme"  style={{fontSize: "2.3rem",fontFamily: "ui-sans-serif",fontWeight:"600"}}>Contacteme</a>
         </nav>
       </header>
       <body  className="App-body">
