@@ -7,7 +7,7 @@ import './Portfolio.css';
 
 function Portfolio() {
   return (
-  <div class="container col-6 rounded bg-danger row justify-content-center" >
+  <div class="container col-6 rounded bg-primary row justify-content-center" >
     <p class="h1 row justify-content-center text-light" style={{ fontSize: "2.9rem",fontStyle:"italic" }}>Portfolio</p>
     <img className="iconoEstilos" src={iconoReact}  />
     <img className="iconoEstilos" src={iconoHtml}  />
