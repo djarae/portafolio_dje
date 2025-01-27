@@ -15,7 +15,7 @@ function App() {
           <a href="#home"  style={{ fontSize: "2.3rem",fontFamily: "ui-sans-serif",fontWeight:"600"}}>Home</a>
           <a href="#proyectos"  style={{ fontSize: "2.3rem",fontFamily: "ui-sans-serif",fontWeight:"600"}}>Proyectos</a>
           <a href="#conocimientos"  style={{ fontSize: "2.3rem",fontFamily: "ui-sans-serif",fontWeight:"600"}}>Conocimientos</a>
-          {/* <a href="#contacteme"  style={{fontSize: "2.3rem",fontFamily: "ui-sans-serif",fontWeight:"600"}}>Contacteme</a> */}
+          <a href="#contacteme"  style={{fontSize: "2.3rem",fontFamily: "ui-sans-serif",fontWeight:"600"}}>Contacteme</a>
         </nav>
       </header>
       <body  className="App-body">
@@ -23,7 +23,7 @@ function App() {
         <section className="sectionHeader"id="acercademi">  <AcercaDeMi>   </AcercaDeMi>   </section>
         <section className="sectionHeader" id="proyectos">   <MisProyectos> </MisProyectos> </section>
         <section className="sectionHeader" id="conocimientos">      <Conocimientos></Conocimientos> </section>
-        {/* <section className="sectionHeader" id="contacteme">      <Contacteme></Contacteme> </section> */}
+        <section className="sectionHeader" id="contacteme">      <Contacteme></Contacteme> </section>
       </body>
     </div>
   );

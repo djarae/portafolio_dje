@@ -24,5 +24,15 @@
         "id":5,
         "tecnologia":"SQL",
         "anos":5
+    },
+    {
+        "id":6,
+        "tecnologia":"AWS",
+        "anos":2
+    },
+    {
+        "id":6,
+        "tecnologia":"Javascript,CSS & HTML",
+        "anos":5
     }
 ]
