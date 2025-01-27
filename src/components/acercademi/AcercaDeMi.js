@@ -4,7 +4,7 @@ import './acercademi.css';
 
 function AcercaDeMi() {
   return (
-        <div  class="panel panel-default"    className="divAcercaDeMi">
+        <div  class="panel panel-default"  className="divAcercaDeMi">
             <h1 className='h1TitutloAcercaDeMi' >
                 Acerca De Mi
             </h1>

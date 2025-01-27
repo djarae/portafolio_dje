@@ -9,10 +9,10 @@ function Conocimientos() {
                 Conocimientos
             </p>
 
-            <div class="container col-6 rounded bg-transparent  text-dark " >
-                  <table class="table  table-ligth table-striped    justify-content-center " >
+            <div class="container rounded col-6 rounded bg-transparent  text-dark " >
+                  <table class="table table-transparent   justify-content-center " >
                       <thead class="thead-light"> 
-                        <tr>
+                        <tr class="table-dark">
                           <th scope="col">#</th>
                           <th scope="col">Tecnología</th>
                           <th scope="col">Años</th>

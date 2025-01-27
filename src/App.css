@@ -7,6 +7,7 @@
   top: 0 ;
   width: 100%;
   border: 3px solid #FF8000;
+  
 }
 
 .navBar{
@@ -34,7 +35,11 @@
   flex-direction: column;
   font-size: calc(10px + 2vmin);
   color: white;
+  background: rgb(0,0,0);
+  background: linear-gradient(90deg, rgb(31, 28, 46) 0%, rgb(91, 86, 111) 100%);
 }
+
+
 
 
 

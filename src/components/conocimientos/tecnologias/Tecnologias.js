@@ -1,16 +1,17 @@
 
 
-import ConocimientosJson from './Tecnologias.json'
+import ConocimientosJson from '../../../data/tecnologias.json'
+
 function Tecnologias() {
 
   function getTecnologias(){
     let tecnologias = [];
     for (let i=0;i<ConocimientosJson.length;i++){
       tecnologias.push(  
-      <tr>
-        <td>{ConocimientosJson[i].id}</td>
-        <td>{ConocimientosJson[i].tecnologia}</td>
-        <td>{ConocimientosJson[i].anos}</td>
+      <tr  class="table-secondary " >
+        <td class="table-dark ">{ConocimientosJson[i].id}</td>
+        <td class="table-dark ">{ConocimientosJson[i].tecnologia}</td>
+        <td class="table-dark ">{ConocimientosJson[i].anos}</td>
      </tr>)
     }
     return(
@@ -19,7 +20,7 @@ function Tecnologias() {
   }
 
   return (
-    <tbody>
+    <tbody >
       {getTecnologias()}
     </tbody>
   );

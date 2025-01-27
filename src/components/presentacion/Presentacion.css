@@ -1,10 +1,9 @@
 .divTexto{
-    float:left;
     width: 50%;
 }
 
 .divFotoPerfil{
-    float:right;
-    width: 50%;
+    margin-left: 20px; 
+    margin-top: 70px; 
 }
 
