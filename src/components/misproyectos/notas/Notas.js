@@ -1,7 +1,5 @@
 import NotasTexto from "../../../data/notas.json"
-import iconoReact from '../../../assets/Icon/icons8-reaccionar.svg';
-import iconoHtml from '../../../assets/Icon/iconoHtml.svg';
-import iconoCss from '../../../assets/Icon/iconoCss.svg';
+
 import iconoJS from '../../../assets/Icon/iconoJS.svg';
 import './Notas.css';
 
