@@ -13,7 +13,6 @@ function MisProyectos() {
     <div className="divProyectosI"><div class="container d-flex justify-content-center" ><Portfolio></Portfolio></div></div>
     <div className="divProyectosI"><div class="container d-flex justify-content-center"  ><Gastos></Gastos></div></div>
     {/* <div className="divProyectosI"><div class="container d-flex justify-content-center"  ><Ingles></Ingles></div></div> */}
-    
     {/* <div className="divProyectosI"><div class="container d-flex justify-content-center" ><Notas></Notas></div></div> */}
   </div>
   );
