@@ -17,7 +17,27 @@
     text-align:left;
     font-family: 'Varela Round', sans-serif;
 }
+
+
+
 .iconoTPortfolio{
-    height: 23%;
-      width:  23%; 
+    max-width: 80px; /* Limita el ancho máximo de la imagen */
+    max-height: 80px; /* Limita la altura máxima */
+    width:  25%; 
   }
+
+
+
+
+
+  @media (max-width: 1000px) {
+    .iconoTPortfolio{
+        height: 100%;
+        width:  21%; 
+    }
+
+
+
+}
+
+      

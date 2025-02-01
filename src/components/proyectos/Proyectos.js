@@ -1,8 +1,8 @@
 import Portfolio from './portfolio/Portfolio.js';
 import Gastos from './gastos/Gastos.js';
-import '../../styles/MisProyectos.css';
+import '../../styles/Proyectos.css';
 
-function MisProyectos() {
+function Proyectos() {
   return (
   <div className='divProyectos'>
     <p class="justify-content-center" className="titulo-proyecto">Proyectos</p>
@@ -11,4 +11,4 @@ function MisProyectos() {
   </div>
   );
 }
-export default MisProyectos;
+export default Proyectos;
