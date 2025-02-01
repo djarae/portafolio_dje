@@ -5,7 +5,7 @@ import '../../styles/MisProyectos.css';
 function MisProyectos() {
   return (
   <div className='divProyectos'>
-    <p class="justify-content-center" className="custom-text-white-titulo">Proyectos</p>
+    <p class="justify-content-center" className="titulo-proyecto">Proyectos</p>
     <div className="divProyectosI"><div class="container d-flex justify-content-center" ><Portfolio></Portfolio></div></div>
     <div className="divProyectosI"><div class="container d-flex justify-content-center"  ><Gastos></Gastos></div></div>
   </div>

@@ -1,9 +1,17 @@
-.tituloProyectos{
-    font-Size: 5rem;
+
+
+  .titulo-proyecto{
+    font-family: 'Orbitron', sans-serif; /* Usa Orbitron o una fuente futurista similar */
+    font-weight: 700; /* Grosor para destacar las letras */
+    font-size: 2.5rem; /* Ajusta según lo necesites */
+    color: rgb(255,255,255); /* Blanco puro */
+    line-height: 1.2; /* Ajusta la altura entre líneas */
+    text-decoration: none; /* Asegúrate de que no haya subrayado */
+    line-height: 1; /* Ajusta la altura de línea para evitar espacio adicional */
+    vertical-align: baseline; /* Alinea correctamente el texto con su contenedor */
+    font-weight: bold; /* Opcional: para mantener el estilo del texto */
     text-align: center;
   }
-
-
 
   .divProyectos {
     justify-Content: center;
@@ -17,3 +25,37 @@
   }
 
 
+
+  @media (max-width: 900px) {
+    .divProyectosI {
+      width: 500px;
+    }
+
+    .divProyectos{
+      margin-right: 30%;
+      justify-Content: center;
+      text-Align: center ;
+      width : 100%;
+    }
+  
+    .tituloProyectos{
+      font-Size: 5rem;
+      text-align: center;
+    }
+
+    .titulo-proyecto{
+      font-family: 'Orbitron', sans-serif; /* Usa Orbitron o una fuente futurista similar */
+      font-weight: 700; /* Grosor para destacar las letras */
+      font-size: 2.5rem; /* Ajusta según lo necesites */
+      color: rgb(255,255,255); /* Blanco puro */
+      line-height: 1.2; /* Ajusta la altura entre líneas */
+      text-decoration: none; /* Asegúrate de que no haya subrayado */
+      line-height: 1; /* Ajusta la altura de línea para evitar espacio adicional */
+      vertical-align: baseline; /* Alinea correctamente el texto con su contenedor */
+      font-weight: bold; /* Opcional: para mantener el estilo del texto */
+      text-align: center;
+      margin-left: 37%;
+
+    }
+  
+}
