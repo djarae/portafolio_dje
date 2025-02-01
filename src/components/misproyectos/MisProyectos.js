@@ -1,6 +1,6 @@
 import Portfolio from './portfolio/Portfolio.js';
 import Gastos from './gastos/Gastos.js';
-import './MisProyectos.css';
+import '../../styles/MisProyectos.css';
 
 function MisProyectos() {
   return (

@@ -1,28 +1,23 @@
-
-
+.parrafosProyectos{
+    display : 6
+}
 .iconoDiv{
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
-.iconoTGastos{
-  height: 23%;
-  width:  23%; 
-}
-
-.tituloGastos{
+.tituloPortafolio{
     font-Size: 3rem;
     text-align:center;
 
   font-style: oblique;
 }
-
-.textoGastos{
+.textoPortafolio{
     font-Size: 1.25rem;
     text-align:left;
-    font-weight:510;
     font-family: 'Varela Round', sans-serif;
 }
-
-
+.iconoTPortfolio{
+    height: 23%;
+      width:  23%; 
+  }

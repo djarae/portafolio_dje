@@ -1,9 +1,10 @@
+import '../../../styles/Portfolio.css';
 import PortfolioTexto from "../../../data/portfolio.json"
+
 import iconoReact from '../../../assets/Icon/icons8-reaccionar.svg';
 import iconoHtml from '../../../assets/Icon/iconoHtml.svg';
 import iconoCss from '../../../assets/Icon/iconoCss.svg';
 import iconoJS from '../../../assets/Icon/iconoJS.svg';
-import './Portfolio.css';
 
 function Portfolio() {
   return (
@@ -11,10 +12,10 @@ function Portfolio() {
     <p class="h1 row justify-content-center text-light" >Portfolio</p>
   
     <h1 class="text-left display-8 fs-4" className="textoPortafolio">{PortfolioTexto[0].texto} </h1>
-    <img  className="iconoTPortfolio" src={iconoReact}    />
+    {/* <img  className="iconoTPortfolio" src={iconoReact}    />
     <img className="iconoTPortfolio" src={iconoHtml}  />
     <img className="iconoTPortfolio" src={iconoCss}/>
-    <img className="iconoTPortfolio" src={iconoJS} />
+    <img className="iconoTPortfolio" src={iconoJS} /> */}
   </div>
   );
 }

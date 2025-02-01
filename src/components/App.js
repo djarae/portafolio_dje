@@ -1,10 +1,10 @@
-import './App.css';
+import '../styles/App.css';
 import 'bootstrap/dist/css/bootstrap.css';
-import Presentacion from './components/presentacion/Presentacion.js';
-import MisProyectos from './components/misproyectos/MisProyectos.js';
-import Conocimientos from './components/conocimientos/Conocimientos.js';
-import Contacteme from './components/contacteme/Contacteme.js';
-import NavBar from './components/navbar/Navbar.js'
+import Presentacion from './presentacion/Presentacion.js';
+import MisProyectos from './misproyectos/MisProyectos.js';
+import Conocimientos from './conocimientos/Conocimientos.js';
+import Contacteme from './contacteme/Contacteme.js';
+import NavBar from './navbar/Navbar.js'
 function App() {
   return (
     <div>
