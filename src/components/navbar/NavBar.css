@@ -44,10 +44,8 @@
 }
 
 .navbar .nav-links a {
-    
-    text-decoration: none; /* Asegúrate de que no haya subrayado */
+    text-decoration: none; 
     border-bottom: none; /* Elimina cualquier borde inferior específico */
-    text-decoration: none; /* Asegúrate de que no haya subrayado */
     line-height: 1; /* Ajusta la altura de línea para evitar espacio adicional */
     vertical-align: baseline; /* Alinea correctamente el texto con su contenedor */
     color: black; /* Asegura el color del texto */
@@ -56,10 +54,10 @@
 }
 
 .navbar .nav-links a:hover {
-    text-decoration: none; /* Asegúrate de que no haya subrayado */
+    text-decoration: none; 
     border-bottom: none; /* Elimina cualquier borde inferior específico */
     color: #f5f5f5;
-    color: #ff6600; /* Color al pasar el mouse (opcional) */
+    color: #ff6600; /* Color AMBAR al pasar el mouse (opcional) */
 }
 
 /* Botón de menú (para móviles) */

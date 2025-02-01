@@ -1,6 +1,3 @@
-.parrafosProyectos{
-    display : 6
-}
 
 
 .iconoDiv{
@@ -24,8 +21,9 @@
 
 .textoGastos{
     font-Size: 1.25rem;
-    text-align:center;
-    font-style: italic;
+    text-align:left;
+    font-weight:510;
+    font-family: 'Varela Round', sans-serif;
 }
 
 

@@ -9,7 +9,7 @@ import './MisProyectos.css';
 function MisProyectos() {
   return (
   <div className='divProyectos'>
-    <p class="h1 row justify-content-center" className="tituloProyectos">Proyectos</p>
+    <p class="justify-content-center" className="custom-text-white-titulo">Proyectos</p>
     <div className="divProyectosI"><div class="container d-flex justify-content-center" ><Portfolio></Portfolio></div></div>
     <div className="divProyectosI"><div class="container d-flex justify-content-center"  ><Gastos></Gastos></div></div>
     {/* <div className="divProyectosI"><div class="container d-flex justify-content-center"  ><Ingles></Ingles></div></div> */}
