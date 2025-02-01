@@ -13,7 +13,6 @@ function Conocimientos() {
                   <table class="table table-transparent   justify-content-center " >
                       <thead class="thead-light"> 
                         <tr class="table-dark">
-                          <th scope="col">#</th>
                           <th scope="col">Tecnología</th>
                           <th scope="col">Años</th>
                         </tr>

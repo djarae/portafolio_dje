@@ -1,22 +1,4 @@
-.App-header {
-  font-size: calc(10px + 2vmin);
-  color: white;
-  background-color: #07022c;
-  position: fixed;
-  left: 0;
-  top: 0 ;
-  width: 100%;
-  border: 3px solid #FF8000;
-  
-}
 
-.navBar{
-  display: flex;
-}
-
-.navBar a{
-  width: 320px;
-}
 
 .sectionHeader {
   min-height: 100vh;
@@ -30,6 +12,8 @@
   justify-content: left;
 }
 
+/*
+// App body antiguo ,fondo con gradientes que me gusta para otras apps .Pero no para mi portfolio
 .App-body {
   background-color: #07022c;
   flex-direction: column;
@@ -37,6 +21,13 @@
   color: white;
   background: rgb(0,0,0);
   background: linear-gradient(90deg, rgb(31, 28, 46) 0%, rgb(91, 86, 111) 100%);
+} */
+
+.App-body {
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  background: rgb(0,0,0);
 }
 
 
