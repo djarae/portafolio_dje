@@ -1,5 +1,4 @@
 import Tecnologias from './tecnologias/Tecnologias.js';
-import './Conocimientos.css'
 
 
 function Conocimientos() {

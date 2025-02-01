@@ -6,35 +6,17 @@
   justify-content: center;
   align-items: center;
 }
-
 .sectionComponente {
   min-height: 65vh;
   justify-content: left;
 }
-
-/*
-// App body antiguo ,fondo con gradientes que me gusta para otras apps .Pero no para mi portfolio
-.App-body {
-  background-color: #07022c;
-  flex-direction: column;
-  font-size: calc(10px + 2vmin);
-  color: white;
-  background: rgb(0,0,0);
-  background: linear-gradient(90deg, rgb(31, 28, 46) 0%, rgb(91, 86, 111) 100%);
-} */
-
 .App-body {
   flex-direction: column;
   font-size: calc(10px + 2vmin);
   color: white;
   background: rgb(0,0,0);
 }
-
-
-
-/*ESTILOS PARA TODO EL PROYECTO*/
-
-
+/*Inicio: Estilo Globales*/
 .custom-text-white{
   font-family: 'Orbitron', sans-serif; /* Usa Orbitron o una fuente futurista similar */
   font-weight: 700; /* Grosor para destacar las letras */
@@ -45,9 +27,7 @@
   line-height: 1; /* Ajusta la altura de línea para evitar espacio adicional */
   vertical-align: baseline; /* Alinea correctamente el texto con su contenedor */
   font-weight: bold; /* Opcional: para mantener el estilo del texto */
-
 }
-
 .custom-text-white-titulo{
   font-family: 'Orbitron', sans-serif; /* Usa Orbitron o una fuente futurista similar */
   font-weight: 700; /* Grosor para destacar las letras */
@@ -59,8 +39,74 @@
   vertical-align: baseline; /* Alinea correctamente el texto con su contenedor */
   font-weight: bold; /* Opcional: para mantener el estilo del texto */
   text-align: center;
-
 }
+/*Fin: Estilo Globales*/
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+// 
+ App body antiguo ,fondo con gradientes que me gusta para otras apps.
+ Pero no para mi portfolio, ya que le queda mejor negro-ambar-blanco elegante
+.App-body {
+  background-color: #07022c;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  background: rgb(0,0,0);
+  background: linear-gradient(90deg, rgb(31, 28, 46) 0%, rgb(91, 86, 111) 100%);
+} */

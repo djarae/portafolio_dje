@@ -5,16 +5,11 @@
     width: 35rem;
     align-content: center;
 }
-
 .text-correo{
     text-align: center;
     color: black
-    
 }
-
-
-
-.custom-text-black-titulo{
+.contacteme-titulo{
     font-family: 'Orbitron', sans-serif; /* Usa Orbitron o una fuente futurista similar */
     font-weight: 700; /* Grosor para destacar las letras */
     font-size: 2.5rem; /* Ajusta según lo necesites */
@@ -25,5 +20,4 @@
     vertical-align: baseline; /* Alinea correctamente el texto con su contenedor */
     font-weight: bold; /* Opcional: para mantener el estilo del texto */
     text-align: center;
-  
-  }
+}
