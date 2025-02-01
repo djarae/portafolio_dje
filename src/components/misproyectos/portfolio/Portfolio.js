@@ -8,8 +8,8 @@ import iconoJS from '../../../assets/Icon/iconoJS.svg';
 
 function Portfolio() {
   return (
-  <div class="container col-6 rounded bg-dark row justify-content-center"  >
-    <p class="h1 row justify-content-center text-light" >Portfolio</p>
+  <div class="container  col-10 rounded bg-dark row justify-content-center"  >
+    <p class="h1 row justify-content-center text-light"  style={{ fontSize: "2.9rem",fontStyle:"italic" }} >Portfolio</p>
   
     <h1 class="text-left display-8 fs-4" className="textoPortafolio">{PortfolioTexto[0].texto} </h1>
     {/* <img  className="iconoTPortfolio" src={iconoReact}    />
