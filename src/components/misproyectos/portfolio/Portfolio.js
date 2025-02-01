@@ -7,7 +7,7 @@ import './Portfolio.css';
 
 function Portfolio() {
   return (
-  <div class="container col-6 rounded bg-secondary row justify-content-center"  >
+  <div class="container col-6 rounded bg-dark row justify-content-center"  >
     <p class="h1 row justify-content-center text-light" >Portfolio</p>
   
     <h1 class="text-left display-8 fs-4" className="textoPortafolio">{PortfolioTexto[0].texto} </h1>

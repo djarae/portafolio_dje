@@ -10,7 +10,7 @@ function MisProyectos() {
   return (
   <div className='divProyectos'>
     <p class="justify-content-center" className="custom-text-white-titulo">Proyectos</p>
-    <div className="divProyectosI"><div class="container d-flex justify-content-center" ><Portfolio></Portfolio></div></div>
+    <div className="divProyectosI"><div class="dark container d-flex justify-content-center" ><Portfolio></Portfolio></div></div>
     <div className="divProyectosI"><div class="container d-flex justify-content-center"  ><Gastos></Gastos></div></div>
     {/* <div className="divProyectosI"><div class="container d-flex justify-content-center"  ><Ingles></Ingles></div></div> */}
     {/* <div className="divProyectosI"><div class="container d-flex justify-content-center" ><Notas></Notas></div></div> */}
