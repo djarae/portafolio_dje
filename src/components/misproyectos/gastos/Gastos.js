@@ -8,8 +8,9 @@ function Gastos() {
   <div class="container col-6 rounded bg-secondary row justify-content-center" >
     <p class="h1 row justify-content-center text-light" style={{ fontSize: "2.9rem",fontStyle:"italic" }}>Gastos</p>
     
-    <img className="iconoEstilos" src={iconoJS} />
     <h1 class="text-center display-8 fs-4" className="textoGastos">{GastosTexto[0].texto} </h1>
+    <img className="iconoTGastos" src={iconoJS} />
+  
   </div>
   );
 }

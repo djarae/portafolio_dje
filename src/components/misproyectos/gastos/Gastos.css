@@ -6,11 +6,10 @@
     justify-content: center;
 }
 
-.iconoEstilos{
-    height: 100px;
-      width: 100px; 
+.iconoTGastos{
+  height: 23%;
+  width:  23%; 
 }
-
 
 .tituloGastos{
     font-Size: 3rem;

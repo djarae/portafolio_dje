@@ -9,11 +9,12 @@ function Portfolio() {
   return (
   <div class="container col-6 rounded bg-secondary row justify-content-center"  >
     <p class="h1 row justify-content-center text-light" >Portfolio</p>
-    <img className="iconoEstilos" src={iconoReact}  />
-    <img className="iconoEstilos" src={iconoHtml}  />
-    <img className="iconoEstilos" src={iconoCss}/>
-    <img className="iconoEstilos" src={iconoJS} />
+  
     <h1 class="text-left display-8 fs-4" className="textoPortafolio">{PortfolioTexto[0].texto} </h1>
+    <img  className="iconoTPortfolio" src={iconoReact}    />
+    <img className="iconoTPortfolio" src={iconoHtml}  />
+    <img className="iconoTPortfolio" src={iconoCss}/>
+    <img className="iconoTPortfolio" src={iconoJS} />
   </div>
   );
 }
