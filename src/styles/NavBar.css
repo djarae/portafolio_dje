@@ -114,4 +114,20 @@
     .navbar .nav-links li {
         padding: 10px 0;
     }
+
+    .custom-text-black {
+        font-family: 'Orbitron', sans-serif; /* Usa Orbitron o una fuente futurista similar */
+        font-weight: 700; /* Grosor para destacar las letras */
+        font-size: 2.3rem; /* Ajusta según lo necesites */
+        color: rgb(0,0,0); /* Blanco puro */
+        line-height: 1.2; /* Ajusta la altura entre líneas */
+        text-decoration: none; /* Asegúrate de que no haya subrayado */
+        line-height: 1; /* Ajusta la altura de línea para evitar espacio adicional */
+        vertical-align: baseline; /* Alinea correctamente el texto con su contenedor */
+        color: black; /* Asegura el color del texto */
+        font-weight: bold; /* Opcional: para mantener el estilo del texto */
+    }
+
+
+    
 }
