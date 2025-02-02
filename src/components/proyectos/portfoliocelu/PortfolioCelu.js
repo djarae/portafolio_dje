@@ -7,9 +7,9 @@ import iconoCss from '../../../assets/Icon/iconoCss.svg';
 import iconoJS from '../../../assets/Icon/iconoJS.svg';
 import iconoBootstrap from '../../../assets/Icon/iconoBootstrap.svg'
 
-function Portfolio() {
+function PortfolioCelu() {
   return (
-  <div class="container  col-5  rounded bg-dark row justify-content-center"  >
+  <div class="container  col-9  rounded bg-dark row justify-content-center"  >
     <p class="h1 row justify-content-center text-light"  style={{ fontSize: "2.9rem",fontStyle:"italic" }} >Portfolio</p>
     <h1 class="text-left display-8 fs-4" className="textoPortafolio">{PortfolioTexto[0].texto} </h1>
       <div class="justify-content-right d-inline-flex p-2" >
@@ -22,4 +22,4 @@ function Portfolio() {
   </div>
   );
 }
-export default Portfolio;
+export default PortfolioCelu;
