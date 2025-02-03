@@ -1,0 +1,49 @@
+
+[
+    {
+        "id":0,
+        "titulo":"Portfolio",
+        "texto":"Portfolio que tiene por objetivo listar los proyectos creado y dar información de los mismos.",
+        "iconos":[
+            {
+                "nombre":"React"
+            },
+            {
+                "nombre":"JS"
+            },
+            {
+                "nombre":"Html"
+            },
+            {
+                "nombre":"Css"
+            },
+            {
+                "nombre":"Bootstrap"
+            }
+        ]
+        
+    },
+    {
+        "id":1,
+        "titulo":"Gastos",
+        "texto":"Proyecto creado para el registro de gastos & generación de informes. Infrastructura profesional, uso de herramientas DevOps,Infraestructura de microservicios."
+        ,"iconos":[
+            {
+                "nombre":"React"
+            },
+            {
+                "nombre":"JS"
+            },
+            {
+                "nombre":"Html"
+            },
+            {
+                "nombre":"Css"
+            },
+            {
+                "nombre":"Bootstrap"
+            }
+        ]
+    }
+]
+
