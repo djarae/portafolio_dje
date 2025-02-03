@@ -1,8 +1,6 @@
 import Proyecto from './proyecto/Proyecto.js';
 import '../../styles/Proyectos.css';
 
-
-
 function Proyectos() {
   return (
   <div className='divProyectos'>

@@ -1,11 +1,11 @@
 
-import '../../../../styles/Proyectos.css'
+import '../../../styles/Proyectos.css'
 //Iconos:
-import iconoReact from '../../../../assets/Icon/icons8-reaccionar.svg';
-import iconoHtml from '../../../../assets/Icon/iconoHtml.svg';
-import iconoCss from '../../../../assets/Icon/iconoCss.svg';
-import iconoJS from '../../../../assets/Icon/iconoJS.svg';
-import iconoBootstrap from '../../../../assets/Icon/iconoBootstrap.svg'
+import iconoReact from '../../../assets/Icon/icons8-reaccionar.svg';
+import iconoHtml from '../../../assets/Icon/iconoHtml.svg';
+import iconoCss from '../../../assets/Icon/iconoCss.svg';
+import iconoJS from '../../../assets/Icon/iconoJS.svg';
+import iconoBootstrap from '../../../assets/Icon/iconoBootstrap.svg'
 function IconsGenerator(props) {
   function getIconos(){
     let iconos = [];

@@ -1,6 +1,5 @@
-import '../../../styles/Portfolio.css';
 import ProyectosTxt from "../../../data/proyectos.json"
-import IconsGenerator  from './iconsgenerator/IconsGenerator';
+import IconsGenerator  from './IconsGenerator';
 
 function Proyecto(props) {
   return (

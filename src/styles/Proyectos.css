@@ -1,5 +1,10 @@
 
+.iconoTPortfolio{
+ width: 20%;
+}
 
+  
+  
   .titulo-proyecto{
     font-family: 'Orbitron', sans-serif; /* Usa Orbitron o una fuente futurista similar */
     font-weight: 700; /* Grosor para destacar las letras */
@@ -27,3 +32,33 @@
 
 
 
+  .parrafosProyectos{
+    display : 6
+}
+.iconoDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tituloPortafolio{
+    font-Size: 3rem;
+    text-align:center;
+
+  font-style: oblique;
+}
+.textoPortafolio{
+    font-Size: 1.25rem;
+    text-align:left;
+    font-family: 'Varela Round', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+      
