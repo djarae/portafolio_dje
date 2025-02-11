@@ -18,7 +18,7 @@ function App() {
       <section className="sectionHeader" id="contacteme"><Contacteme></Contacteme></section>
      </body>
     </div>
-  );
+  );//no merge
 }
 export default App;
 
