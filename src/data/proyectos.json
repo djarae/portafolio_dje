@@ -21,12 +21,33 @@
                 "nombre":"Bootstrap"
             }
         ]
-        
     },
     {
         "id":1,
         "titulo":"Gastos",
-        "texto":"Proyecto creado para el registro de gastos & generación de informes. Infrastructura profesional, uso de herramientas DevOps,Infraestructura de microservicios."
+        "texto":"Proyecto creado para el registro de gastos & generación de informes."
+        ,"iconos":[
+            {
+                "nombre":"React"
+            },
+            {
+                "nombre":"JS"
+            },
+            {
+                "nombre":"Html"
+            },
+            {
+                "nombre":"Css"
+            },
+            {
+                "nombre":"Bootstrap"
+            }
+        ]
+    },
+    {
+        "id":1,
+        "titulo":"Retos de Progrmacion: Compendium",
+        "texto":"Fines de aprendizaje. Un compendium de 'retos de programacion' comunes como: 'FizzBuzz' , 'Fibonacci' etc. Con el fin de practicar desarrollo y crear una infraestuctura basdad en cloud local y microservicios, usando herramientas como Kubernetes, AWS(localstack),Kafka ,etc. Usando tambien Jenkins para Ci/Cd Al final del dia lo mas importante para mantenerse como DEV es siempre revisar en LINKDN las tecnologias que se usan y practicar :codificar, administracion de arquitecturas en la nube y practicas devops"
         ,"iconos":[
             {
                 "nombre":"React"
@@ -45,5 +66,6 @@
             }
         ]
     }
+   
 ]
 

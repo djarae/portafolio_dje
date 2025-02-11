@@ -1,0 +1,23 @@
+
+{
+    "id":2,
+    "titulo":"Mensajes Asincronos",
+    "texto":" Conjunto de microservicios desacolpado y reutilizables. Enviando un solo mensaje desde el cliente, este MS desde la API principal enviará de forma asincrona dicho mensaje a: Whatsap, Gmail ,Messenger ,etc. Fue crado utilziando AWS, Kubernetes , y Kafka. Con fines didacticos se migra el cluster con los MS a GCP o Azure.Se utiliza Http en lugar de web-socket por simplicidad"
+    ,"iconos":[
+        {
+            "nombre":"React"
+        },
+        {
+            "nombre":"JS"
+        },
+        {
+            "nombre":"Html"
+        },
+        {
+            "nombre":"Css"
+        },
+        {
+            "nombre":"Bootstrap"
+        }
+    ]
+}
