@@ -1,3 +1,7 @@
+const {
+ withNativeWind: withNativeWind
+} = require("nativewind/metro");
+
 import '../styles/App.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import Presentacion from './presentacion/Presentacion.js';
@@ -21,5 +25,3 @@ function App() {
   );//no merge
 }
 export default App;
-
-

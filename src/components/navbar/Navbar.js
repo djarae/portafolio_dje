@@ -1,3 +1,7 @@
+const {
+  withNativeWind: withNativeWind
+} = require("nativewind/metro");
+
 import '../../styles/NavBar.css';
 
 function NavBar() {
@@ -11,5 +15,4 @@ function NavBar() {
       </nav>
     );
   }
-  export default NavBar;
-  
+export default NavBar;

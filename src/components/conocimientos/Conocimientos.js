@@ -1,3 +1,7 @@
+const {
+  withNativeWind: withNativeWind
+} = require("nativewind/metro");
+
 import Tecnologias from './tecnologias/Tecnologias.js';
 import  '../../styles/Conocimientos.css'
 

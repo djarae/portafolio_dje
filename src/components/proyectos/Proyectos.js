@@ -1,3 +1,7 @@
+const {
+  withNativeWind: withNativeWind
+} = require("nativewind/metro");
+
 import Proyecto from './proyecto/Proyecto.js';
 import '../../styles/Proyectos.css';
 import ProyectosTxt from "../../data/proyectos.json";

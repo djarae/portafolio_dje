@@ -1,3 +1,7 @@
+const {
+  withNativeWind: withNativeWind
+} = require("nativewind/metro");
+
 //import imagentest from 'https://es.pikbest.com/backgrounds/abstract-black-background-with-square-purple-and-blue-frame-luxury-futuristic-technology_1761876.html'
 import imagenPerfil from '../../assets/Pictures/ProfileDJE.bmp';
 import '../../styles/Presentacion.css';
