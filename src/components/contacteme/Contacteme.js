@@ -1,6 +1,4 @@
-const {
-  withNativeWind: withNativeWind
-} = require("nativewind/metro");
+
 
 import '../../styles/Contacteme.css';
 function Contacteme() {

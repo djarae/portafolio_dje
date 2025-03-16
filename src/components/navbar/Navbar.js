@@ -1,6 +1,3 @@
-const {
-  withNativeWind: withNativeWind
-} = require("nativewind/metro");
 
 import '../../styles/NavBar.css';
 

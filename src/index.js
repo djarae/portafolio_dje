@@ -1,6 +1,4 @@
-const {
-  withNativeWind: withNativeWind
-} = require("nativewind/metro");
+
 
 import React from 'react';
 import ReactDOM from 'react-dom';

@@ -1,6 +1,4 @@
-const {
- withNativeWind: withNativeWind
-} = require("nativewind/metro");
+
 
 import '../styles/App.css';
 import 'bootstrap/dist/css/bootstrap.css';

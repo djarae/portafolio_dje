@@ -1,4 +1,7 @@
-.custom-text-white-conocimientos{
+
+
+
+.custom-text-white-tecnologias{
     text-align: center; /* Alinea el texto al centro */
     font-family: 'Orbitron', sans-serif; /* Usa Orbitron o una fuente futurista similar */
     font-weight: 700; /* Grosor para destacar las letras */
@@ -9,16 +12,11 @@
     line-height: 1; /* Ajusta la altura de línea para evitar espacio adicional */
     vertical-align: baseline; /* Alinea correctamente el texto con su contenedor */
     font-weight: bold; /* Opcional: para mantener el estilo del texto */
-    text-align: center;
-}
+  
+  }
 
 
-@media (max-width: 600px) {
-    .divTblConocimientos{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-right: 65%;
-    }
-}
-
+  .centrar-tecnologia{
+    text-align: center; /* Alinea el texto al centro */
+    
+  }

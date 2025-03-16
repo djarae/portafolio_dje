@@ -1,6 +1,3 @@
-const {
-  withNativeWind: withNativeWind
-} = require("nativewind/metro");
 
 import Tecnologias from './tecnologias/Tecnologias.js';
 import  '../../styles/Conocimientos.css'
@@ -17,7 +14,7 @@ function Conocimientos() {
             <thead class="thead-light"> 
               <tr class="table-dark">
                 <th scope="col" className="custom-text-white">Tecnología</th>
-                <th scope="col" className="custom-text-white">Años</th>
+                <th scope="col" className="custom-text-white-conocimientos">Años</th>
               </tr>
             </thead>
           <Tecnologias></Tecnologias>

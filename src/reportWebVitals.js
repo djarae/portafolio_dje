@@ -1,6 +1,4 @@
-const {
-  withNativeWind: withNativeWind
-} = require("nativewind/metro");
+
 
 const reportWebVitals = onPerfEntry => {
   if (onPerfEntry && onPerfEntry instanceof Function) {
