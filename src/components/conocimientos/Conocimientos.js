@@ -13,8 +13,8 @@ function Conocimientos() {
           <table class="table table-transparent justify-content-center" >
             <thead class="thead-light"> 
               <tr class="table-dark">
-                <th scope="col" className="custom-text-white">Tecnología</th>
-                <th scope="col" className="custom-text-white-conocimientos">Años</th>
+                <th  className="custom-text-tecnologia">Tecnología</th>
+                <th  className="custom-text-anos">Años</th>
               </tr>
             </thead>
           <Tecnologias></Tecnologias>

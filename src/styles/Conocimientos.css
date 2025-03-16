@@ -1,9 +1,9 @@
-.custom-text-white-conocimientos{
+.custom-text-anos{
     text-align: center; /* Alinea el texto al centro */
     font-family: 'Orbitron', sans-serif; /* Usa Orbitron o una fuente futurista similar */
     font-weight: 700; /* Grosor para destacar las letras */
-    font-size: 1.5rem; /* Ajusta según lo necesites */
-    color: rgb(255,255,255); /* Blanco puro */
+    font-size: 1.7rem; /* Ajusta según lo necesites */
+    color: #ff6600;
     line-height: 1.2; /* Ajusta la altura entre líneas */
     text-decoration: none; /* Asegúrate de que no haya subrayado */
     line-height: 1; /* Ajusta la altura de línea para evitar espacio adicional */
@@ -11,6 +11,20 @@
     font-weight: bold; /* Opcional: para mantener el estilo del texto */
     text-align: center;
 }
+
+.custom-text-tecnologia{
+    text-align: left; /* Alinea el texto al centro */
+    font-family: 'Orbitron', sans-serif; /* Usa Orbitron o una fuente futurista similar */
+    font-weight: 700; /* Grosor para destacar las letras */
+    font-size: 1.7rem; /* Ajusta según lo necesites */
+    color: #ff6600;
+    line-height: 1.2; /* Ajusta la altura entre líneas */
+    text-decoration: none; /* Asegúrate de que no haya subrayado */
+    line-height: 1; /* Ajusta la altura de línea para evitar espacio adicional */
+    vertical-align: baseline; /* Alinea correctamente el texto con su contenedor */
+    font-weight: bold; /* Opcional: para mantener el estilo del texto */
+}
+
 
 
 @media (max-width: 600px) {

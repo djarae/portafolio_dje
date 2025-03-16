@@ -48,7 +48,7 @@
 .navbar .nav-links a:hover {
     text-decoration: none; 
     border-bottom: none; /* Elimina cualquier borde inferior específico */
-    color: #f5f5f5;
+   
     color: #ff6600; /* Color AMBAR al pasar el mouse (opcional) */
 }
 .menu-toggle {

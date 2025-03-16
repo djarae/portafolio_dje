@@ -2,37 +2,42 @@
   [
     {
         "id":1,
-        "tecnologia":".Net",
-        "anos":3
+        "tecnologia":"Angular",
+        "anos":4
     },
     {
         "id":2,
-        "tecnologia":"React",
+        "tecnologia":"Springboot",
         "anos":2
     },
     {
         "id":3,
-        "tecnologia":"Angular",
+        "tecnologia":"SQL",
         "anos":2
     },
     {
         "id":4,
-        "tecnologia":"SpringBoot",
+        "tecnologia":"AWS",
         "anos":2
     },
     {
         "id":5,
-        "tecnologia":"SQL",
+        "tecnologia":".NET",
         "anos":5
     },
     {
         "id":6,
-        "tecnologia":"AWS",
+        "tecnologia":"REACT NATIVE",
         "anos":2
     },
     {
         "id":7,
         "tecnologia":"Javascript",
+        "anos":5
+    },
+    {
+        "id":8,
+        "tecnologia":"Tailwind",
         "anos":5
     }
 ]
