@@ -47,7 +47,7 @@
     {
         "id":2,
         "titulo":"Hydrenix: Backup & Mensajes",
-        "texto":"Api con funciones como respaldar base de datos y enviar correo con dicho respaldo.(sin-empezar)"
+        "texto":"Api con funciones como respaldar base de datos y enviar correo con dicho respaldo.(sin-empezar/sgte objetivo)"
         ,"iconos":[
             {
                 "nombre":"React"
@@ -69,7 +69,7 @@
     {
         "id":3,
         "titulo":"Tickets",
-        "texto":"Proyecto Web con entorno desarrollo/desktop en AWS & Kubernetes, pero se subira a GCP.(sin-empezar)"
+        "texto":"Proyecto Web con entorno desarrollo/desktop en AWS & Kubernetes, pero se subira a GCP.(sin-empezar/despuesd de hydrenix)"
         ,"iconos":[
             {
                 "nombre":"React"
@@ -91,7 +91,7 @@
     {
         "id":4,
         "titulo":"Gastos",
-        "texto":"Proyecto Mobile creado para el registro de gastos & generacion de informes.(sin-empezar)"
+        "texto":"Proyecto Mobile creado para el registro de gastos & generacion de informes.(sin-empezar/despues de tickets)"
         ,"iconos":[
             {
                 "nombre":"React"
