@@ -24,8 +24,8 @@
     },
     {
         "id":1,
-        "titulo":"Gastos",
-        "texto":"Proyecto Mobile creado para el registro de gastos & generacion de informes."
+        "titulo":"Smash Data",
+        "texto":"Proyecto creado para registrar %KO del videojuego SmashBros Ultimate, con la finalidad de generar informes y estadisticas.(version-pre-alpha)"
         ,"iconos":[
             {
                 "nombre":"React"
@@ -46,8 +46,52 @@
     },
     {
         "id":2,
+        "titulo":"Hydrenix: Backup & Mensajes",
+        "texto":"Api con funciones como respaldar base de datos y enviar correo con dicho respaldo.(sin-empezar)"
+        ,"iconos":[
+            {
+                "nombre":"React"
+            },
+            {
+                "nombre":"JS"
+            },
+            {
+                "nombre":"Html"
+            },
+            {
+                "nombre":"Css"
+            },
+            {
+                "nombre":"Bootstrap"
+            }
+        ]
+    },
+    {
+        "id":3,
         "titulo":"Tickets",
-        "texto":"Proyecto Web con entorno desarrollo/desktop en AWS & Kubernetes, pero se subira a GCP."
+        "texto":"Proyecto Web con entorno desarrollo/desktop en AWS & Kubernetes, pero se subira a GCP.(sin-empezar)"
+        ,"iconos":[
+            {
+                "nombre":"React"
+            },
+            {
+                "nombre":"JS"
+            },
+            {
+                "nombre":"Html"
+            },
+            {
+                "nombre":"Css"
+            },
+            {
+                "nombre":"Bootstrap"
+            }
+        ]
+    },
+    {
+        "id":4,
+        "titulo":"Gastos",
+        "texto":"Proyecto Mobile creado para el registro de gastos & generacion de informes.(sin-empezar)"
         ,"iconos":[
             {
                 "nombre":"React"
@@ -66,6 +110,5 @@
             }
         ]
     }
-   
 ]
 
