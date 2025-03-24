@@ -46,7 +46,7 @@
     },
     {
         "id":2,
-        "titulo":"Hydrenix: Backup & Mensajes",
+        "titulo":"Kraken Multimensajes",
         "texto":"Api con funciones como respaldar base de datos y enviar correo con dicho respaldo.(sin-empezar/sgte objetivo)"
         ,"iconos":[
             {
@@ -90,8 +90,8 @@
     },
     {
         "id":4,
-        "titulo":"Gastos",
-        "texto":"Proyecto Mobile creado para el registro de gastos & generacion de informes.(sin-empezar/despues de tickets)"
+        "titulo":"Portafolio",
+        "texto":"Proyecto Web con entorno desarrollo/desktop en AWS & Kubernetes, pero se subira a GCP.(sin-empezar/despuesd de hydrenix)"
         ,"iconos":[
             {
                 "nombre":"React"
