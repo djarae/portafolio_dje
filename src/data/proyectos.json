@@ -2,14 +2,14 @@
 [
     {
         "id":0,
-        "titulo":"Portfolio",
-        "texto":"Portfolio que tiene por objetivo listar los proyectos creado y dar información de los mismos.",
-        "iconos":[
+        "titulo":"Smash Data",
+        "texto":"Proyecto creado para registrar %KO del videojuego SmashBros Ultimate, con la finalidad de generar informes y estadisticas.(version-pre-alpha)"
+        ,"iconos":[
             {
-                "nombre":"React"
+                "nombre":"Angular"
             },
             {
-                "nombre":"JS"
+                "nombre":"Typescript"
             },
             {
                 "nombre":"Html"
@@ -24,14 +24,14 @@
     },
     {
         "id":1,
-        "titulo":"Smash Data",
-        "texto":"Proyecto creado para registrar %KO del videojuego SmashBros Ultimate, con la finalidad de generar informes y estadisticas.(version-pre-alpha)"
+        "titulo":"Api-Multimensajes",
+        "texto":"Api con funciones como respaldar base de datos y enviar correo con dicho respaldo.(sin-empezar/sgte objetivo)"
         ,"iconos":[
             {
-                "nombre":"React"
+                "nombre":"Angular"
             },
             {
-                "nombre":"JS"
+                "nombre":"Typescript"
             },
             {
                 "nombre":"Html"
@@ -46,14 +46,14 @@
     },
     {
         "id":2,
-        "titulo":"Kraken Multimensajes",
-        "texto":"Api con funciones como respaldar base de datos y enviar correo con dicho respaldo.(sin-empezar/sgte objetivo)"
+        "titulo":"Tickets",
+        "texto":"Proyecto Web con entorno desarrollo/desktop en AWS & Kubernetes, pero se subira a GCP.(sin-empezar/despuesd de hydrenix)"
         ,"iconos":[
             {
-                "nombre":"React"
+                "nombre":"Angular"
             },
             {
-                "nombre":"JS"
+                "nombre":"Typescript"
             },
             {
                 "nombre":"Html"
@@ -68,14 +68,14 @@
     },
     {
         "id":3,
-        "titulo":"Tickets",
-        "texto":"Proyecto Web con entorno desarrollo/desktop en AWS & Kubernetes, pero se subira a GCP.(sin-empezar/despuesd de hydrenix)"
+        "titulo":"Blog",
+        "texto":"Proyecto angular para blogs de progrmaacion u otros temas como kubernetes o ingles"
         ,"iconos":[
             {
-                "nombre":"React"
+                "nombre":"Angular"
             },
             {
-                "nombre":"JS"
+                "nombre":"Typescript"
             },
             {
                 "nombre":"Html"
