@@ -23,28 +23,6 @@
 },
     {
         "id":1,
-        "titulo":"Smash Data",
-        "texto":"Proyecto creado para registrar %KO del videojuego SmashBros Ultimate, con la finalidad de generar informes y estadisticas.(version-pre-alpha)"
-        ,"iconos":[
-            {
-                "nombre":"Angular"
-            },
-            {
-                "nombre":"Typescript"
-            },
-            {
-                "nombre":"Html"
-            },
-            {
-                "nombre":"Css"
-            },
-            {
-                "nombre":"Bootstrap"
-            }
-        ]
-    },
-    {
-        "id":2,
         "titulo":"Api-Multimensajes",
         "texto":"Api con funciones como respaldar base de datos y enviar correo con dicho respaldo.(sin-empezar/sgte objetivo)"
         ,"iconos":[
@@ -66,9 +44,32 @@
         ]
     },
     {
-        "id":3,
+        "id":2,
         "titulo":"Blog",
         "texto":"Proyecto angular para blogs de progrmaacion u otros temas como kubernetes o ingles"
+        ,"iconos":[
+            {
+                "nombre":"Angular"
+            },
+            {
+                "nombre":"Typescript"
+            },
+            {
+                "nombre":"Html"
+            },
+            {
+                "nombre":"Css"
+            },
+            {
+                "nombre":"Bootstrap"
+            }
+        ]
+    },
+    
+    {
+        "id":3,
+        "titulo":"Smash Data",
+        "texto":"Proyecto creado para registrar %KO del videojuego SmashBros Ultimate, con la finalidad de generar informes y estadisticas.(version-pre-alpha)"
         ,"iconos":[
             {
                 "nombre":"Angular"
