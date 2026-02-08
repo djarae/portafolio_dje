@@ -1,33 +1,35 @@
 
-[ {
-    "id":0,
-    "titulo":"Tickets",
-    "texto":"Proyecto Web con entorno desarrollo/desktop en AWS & Kubernetes, pero se subira a GCP.(sin-empezar/despuesd de hydrenix)"
-    ,"iconos":[
-        {
-            "nombre":"Angular"
-        },
-        {
-            "nombre":"Typescript"
-        },
-        {
-            "nombre":"Html"
-        },
-        {
-            "nombre":"Css"
-        },
-        {
-            "nombre":"Bootstrap"
-        }
-    ]
-},
+[
+    {
+        "id":0,
+        "titulo":"Gastos",
+        "texto":"Aplicación móvil para gestión de gastos personales. Desarrollada con React Native.",
+        "link": "#",
+        "imagen": "1_Gastos.png",
+        "iconos":[
+            {
+                "nombre":"React"
+            },
+            {
+                "nombre":"JS"
+            },
+            {
+                "nombre":"Css"
+            }
+        ]
+    },
     {
         "id":1,
-        "titulo":"Api-Multimensajes",
-        "texto":"Api con funciones como respaldar base de datos y enviar correo con dicho respaldo.(sin-empezar/sgte objetivo)"
-        ,"iconos":[
+        "titulo":"FPG Data",
+        "texto":"Plataforma de datos para juegos de lucha (Fighting Platform Games).",
+        "link": "#",
+        "imagen": "2_FPG.png",
+        "iconos":[
             {
                 "nombre":"Angular"
+            },
+            {
+                "nombre":"Springboot"
             },
             {
                 "nombre":"Typescript"
@@ -45,56 +47,16 @@
     },
     {
         "id":2,
-        "titulo":"Blog",
-        "texto":"Proyecto angular para blogs de progrmaacion u otros temas como kubernetes o ingles"
-        ,"iconos":[
+        "titulo":"CoversShowcase",
+        "texto":"Showcase de covers musicales. Implementado con Vue y .NET.",
+        "link": "#",
+        "imagen": "3_CoversShowcase.png",
+        "iconos":[
             {
-                "nombre":"Angular"
+                "nombre":"Vue"
             },
             {
-                "nombre":"Typescript"
-            },
-            {
-                "nombre":"Html"
-            },
-            {
-                "nombre":"Css"
-            },
-            {
-                "nombre":"Bootstrap"
-            }
-        ]
-    },
-    
-    {
-        "id":3,
-        "titulo":"Smash Data",
-        "texto":"Proyecto creado para registrar %KO del videojuego SmashBros Ultimate, con la finalidad de generar informes y estadisticas.(version-pre-alpha)"
-        ,"iconos":[
-            {
-                "nombre":"Angular"
-            },
-            {
-                "nombre":"Typescript"
-            },
-            {
-                "nombre":"Html"
-            },
-            {
-                "nombre":"Css"
-            },
-            {
-                "nombre":"Bootstrap"
-            }
-        ]
-    },
-    {
-        "id":4,
-        "titulo":"Portafolio",
-        "texto":"Proyecto Web con entorno desarrollo/desktop en AWS & Kubernetes, pero se subira a GCP.(sin-empezar/despuesd de hydrenix)"
-        ,"iconos":[
-            {
-                "nombre":"React"
+                "nombre":".Net"
             },
             {
                 "nombre":"JS"
@@ -111,4 +73,3 @@
         ]
     }
 ]
-

@@ -1,64 +1,113 @@
 
-.iconoTPortfolio{
- width: 20%;
-}
-
-  
-  
-  .titulo-proyecto{
-    font-family: 'Orbitron', sans-serif; /* Usa Orbitron o una fuente futurista similar */
-    font-weight: 700; /* Grosor para destacar las letras */
-    font-size: 2.5rem; /* Ajusta según lo necesites */
-    color: rgb(255,255,255); /* Blanco puro */
-    line-height: 1.2; /* Ajusta la altura entre líneas */
-    text-decoration: none; /* Asegúrate de que no haya subrayado */
-    line-height: 1; /* Ajusta la altura de línea para evitar espacio adicional */
-    vertical-align: baseline; /* Alinea correctamente el texto con su contenedor */
-    font-weight: bold; /* Opcional: para mantener el estilo del texto */
+.divProyectos {
+    justify-content: center;
     text-align: center;
-  }
-
-  .divProyectos {
-    justify-Content: center;
-    text-Align: center ;
-    width : 100%;
+    width: 100%;
     margin-top: 40px;
-  }
-
-  .divProyectosI {
-    margin-top: 40px;
-  }
-
-
-
-
-  .parrafosProyectos{
-    display : 6
+    padding-bottom: 50px;
 }
-.iconoDiv{
+
+.titulo-proyecto {
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-decoration: none;
+    margin-bottom: 30px;
+    text-shadow: 0 0 10px rgba(0, 255, 128, 0.5); /* Green glow effect */
+}
+
+/* Card Styles */
+.project-card {
+    background-color: #1a1a1a;
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease;
+    border: 1px solid #333;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    border-color: #00ff80; /* Green highlight on hover */
+}
+
+.project-image-container {
+    background-color: #2a2a2a;
+    border-radius: 15px;
+    overflow: hidden;
+    margin-bottom: 15px;
+    height: 180px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.tituloPortafolio{
-    font-Size: 3rem;
-    text-align:center;
 
-  font-style: oblique;
+.project-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
-.textoPortafolio{
-    font-Size: 1.25rem;
-    text-align:left;
+
+.tituloPortafolio {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.textoPortafolio {
     font-family: 'Varela Round', sans-serif;
+    font-size: 1rem;
+    color: #ccc;
+    text-align: left;
+    margin-bottom: 20px;
+    flex-grow: 1; /* Pushes button to bottom */
 }
 
+/* Pill / Badge Styles for Icons */
+.tech-pills-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 20px;
+}
 
+.tech-pill {
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #00ff80; /* Green border */
+    border-radius: 20px;
+    padding: 5px 12px;
+    font-size: 0.8rem;
+    font-family: 'Orbitron', sans-serif;
+    text-transform: lowercase; /* Matches style in screenshot if desired, or keep as is */
+}
 
+/* Visit Button */
+.visit-btn {
+    background-color: #fff;
+    color: #000;
+    border: none;
+    border-radius: 25px;
+    padding: 8px 20px;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    display: w-100; /* Full width or align right? Screenshot shows align right usually or bottom */
+    align-self: flex-end;
+    margin-top: auto;
+}
 
-
-
-
-
-
-
-      
+.visit-btn:hover {
+    background-color: #00ff80;
+    color: #000;
+}
