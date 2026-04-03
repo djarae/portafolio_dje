@@ -8,9 +8,9 @@ function Tecnologias() {
     let tecnologias = [];
     for (let i=0;i<ConocimientosJson.length;i++){
       tecnologias.push(  
-      <tr  class="table-secondary" >
-        <td class="table-dark"><a className="custom-text-white">{ConocimientosJson[i].tecnologia}</a></td>
-        <td  className="table-dark centrar-tecnologia" ><a  className="table-dark custom-text-white-tecnologias">{ConocimientosJson[i].anos}</a></td>
+      <tr  className="table-secondary" >
+        <td className="table-dark"><span className="custom-text-white">{ConocimientosJson[i].tecnologia}</span></td>
+        <td  className="table-dark centrar-tecnologia" ><span  className="table-dark custom-text-white-tecnologias">{ConocimientosJson[i].anos}</span></td>
      </tr>)
     }
     return(
