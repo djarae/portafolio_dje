@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Iconos ambar - Portafolio</title>
+  <style>
+    :root {
+      --amber: #e5962f;
+      --amber-strong: #ffb13b;
+      --bg: #000;
+      --panel: #171717;
+      --panel-soft: #202020;
+      --text: #f7f7f7;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      background: var(--bg);
+      color: var(--text);
+      font-family: "Segoe UI", Arial, sans-serif;
+    }
+
+    .skills-section {
+      width: min(92vw, 760px);
+      padding: 48px 0;
+    }
+
+    .pixel-title {
+      width: fit-content;
+      margin: 0 auto 64px;
+      padding: 14px 26px;
+      border: 2px solid var(--amber);
+      border-radius: 12px;
+      background: #080808;
+      color: var(--amber-strong);
+      font-size: clamp(1.5rem, 5vw, 2.4rem);
+      font-weight: 900;
+      letter-spacing: 0;
+      text-transform: uppercase;
+      text-shadow:
+        0 0 4px var(--amber),
+        0 0 14px rgba(229, 150, 47, 0.75);
+      box-shadow:
+        0 0 0 2px rgba(229, 150, 47, 0.18) inset,
+        0 0 18px rgba(229, 150, 47, 0.45);
+    }
+
+    .skills-card {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 16px;
+      padding: 22px;
+      border: 2px solid var(--amber);
+      border-radius: 18px;
+      background: linear-gradient(180deg, #23170a 0%, #120f0a 100%);
+      box-shadow:
+        0 0 0 8px rgba(229, 150, 47, 0.16),
+        0 0 28px rgba(229, 150, 47, 0.32);
+    }
+
+    .skill-pill {
+      min-height: 72px;
+      display: grid;
+      grid-template-columns: 42px 1fr;
+      align-items: center;
+      gap: 12px;
+      padding: 13px 14px;
+      border: 1px solid rgba(229, 150, 47, 0.55);
+      border-radius: 8px;
+      background: #050505;
+      color: var(--text);
+      box-shadow: 0 0 14px rgba(229, 150, 47, 0.16) inset;
+    }
+
+    .skill-pill svg {
+      width: 38px;
+      height: 38px;
+      color: var(--amber);
+      filter: drop-shadow(0 0 5px rgba(229, 150, 47, 0.45));
+    }
+
+    .skill-pill span {
+      overflow-wrap: anywhere;
+      font-size: clamp(0.86rem, 2.3vw, 1rem);
+      font-weight: 800;
+      line-height: 1.05;
+      text-shadow: 0 0 5px rgba(255, 177, 59, 0.4);
+    }
+
+    @media (max-width: 640px) {
+      .skills-section {
+        width: min(86vw, 480px);
+      }
+
+      .skills-card {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 12px;
+        padding: 16px;
+      }
+
+      .skill-pill {
+        grid-template-columns: 34px 1fr;
+        min-height: 66px;
+        padding: 10px;
+      }
+
+      .skill-pill svg {
+        width: 32px;
+        height: 32px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <section class="skills-section" aria-label="Conocimientos">
+    <h2 class="pixel-title">Conocimientos</h2>
+
+    <div class="skills-card">
+      <article class="skill-pill">
+        <svg viewBox="0 0 64 64" aria-hidden="true">
+          <g fill="none" stroke="currentColor" stroke-width="3">
+            <ellipse cx="32" cy="32" rx="25" ry="9" />
+            <ellipse cx="32" cy="32" rx="25" ry="9" transform="rotate(60 32 32)" />
+            <ellipse cx="32" cy="32" rx="25" ry="9" transform="rotate(120 32 32)" />
+          </g>
+          <circle cx="32" cy="32" r="5" fill="currentColor" />
+        </svg>
+        <span>React</span>
+      </article>
+
+      <article class="skill-pill">
+        <svg viewBox="0 0 64 64" aria-hidden="true">
+          <path d="M32 6 54 14 50 48 32 58 14 48 10 14Z" fill="none" stroke="currentColor" stroke-width="4" />
+          <path d="M21 45 32 17 43 45M25 36h14" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+        <span>Angular</span>
+      </article>
+
+      <article class="skill-pill">
+        <svg viewBox="0 0 64 64" aria-hidden="true">
+          <path d="M32 7 54 19v26L32 57 10 45V19Z" fill="none" stroke="currentColor" stroke-width="4" />
+          <text x="32" y="39" text-anchor="middle" fill="currentColor" font-size="19" font-family="Arial, sans-serif" font-weight="900">JS</text>
+        </svg>
+        <span>Node</span>
+      </article>
+
+      <article class="skill-pill">
+        <svg viewBox="0 0 64 64" aria-hidden="true">
+          <path d="M34 5C18 17 17 35 30 55c16-10 20-27 4-50Z" fill="currentColor" opacity="0.88" />
+          <path d="M32 14c3 14 2 27-2 41" fill="none" stroke="#050505" stroke-width="3" stroke-linecap="round" />
+        </svg>
+        <span>MongoDB</span>
+      </article>
+
+      <article class="skill-pill">
+        <svg viewBox="0 0 64 64" aria-hidden="true">
+          <rect x="11" y="11" width="42" height="42" fill="currentColor" />
+          <text x="32" y="42" text-anchor="middle" fill="#050505" font-size="24" font-family="Arial, sans-serif" font-weight="900">JS</text>
+        </svg>
+        <span>Javascript</span>
+      </article>
+
+      <article class="skill-pill">
+        <svg viewBox="0 0 64 64" aria-hidden="true">
+          <circle cx="24" cy="16" r="9" fill="currentColor" />
+          <circle cx="40" cy="16" r="9" fill="currentColor" />
+          <circle cx="24" cy="32" r="9" fill="currentColor" />
+          <circle cx="40" cy="32" r="9" fill="currentColor" />
+          <circle cx="24" cy="48" r="9" fill="currentColor" />
+        </svg>
+        <span>Figma</span>
+      </article>
+
+      <article class="skill-pill">
+        <svg viewBox="0 0 64 64" aria-hidden="true">
+          <path d="M51 21c-2-9-18-10-30-3C9 25 10 34 23 35c11 1 17-4 16-8-1-5-12-4-18 1-11 8-4 23 9 17 8-4 9-12 2-15" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+        <span>Sass</span>
+      </article>
+
+      <article class="skill-pill">
+        <svg viewBox="0 0 64 64" aria-hidden="true">
+          <rect x="10" y="10" width="44" height="44" fill="currentColor" />
+          <text x="32" y="41" text-anchor="middle" fill="#050505" font-size="23" font-family="Arial, sans-serif" font-weight="900">TS</text>
+        </svg>
+        <span>Typescript</span>
+      </article>
+
+      <article class="skill-pill">
+        <svg viewBox="0 0 64 64" aria-hidden="true">
+          <path d="M32 6 45 28 32 36 19 28Z" fill="currentColor" />
+          <path d="M19 36 32 58 45 36 32 44Z" fill="currentColor" opacity="0.72" />
+        </svg>
+        <span>Solidity</span>
+      </article>
+
+      <article class="skill-pill">
+        <svg viewBox="0 0 64 64" aria-hidden="true">
+          <path d="M22 24 32 18l10 6v12l-10 6-10-6Z" fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round" />
+          <path d="M42 18 52 24v16l-10 6-10-6" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+          <path d="M22 46 12 40V24l10-6" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+        <span>Polygon</span>
+      </article>
+    </div>
+  </section>
+</body>
+</html>
