@@ -20,10 +20,28 @@
     },
     {
         "id":1,
-        "titulo":"FPG Data",
-        "texto":"Plataforma de datos para juegos de lucha (Fighting Platform Games).",
+        "titulo":"Postulaciones Register",
+        "texto":"Aplicación de uso personal con el fin de tener un registro disponible en todo momento de las postulaciones propias realizadas.",
         "link": "#",
-        "imagen": "2_FPG.png",
+        "imagen": "2_Postulaciones.png",
+        "iconos":[
+            {
+                "nombre":"React"
+            },
+            {
+                "nombre":"Tailwind"
+            },
+            {
+                "nombre":"Next.js"
+            }
+        ]
+    },
+    {
+        "id":2,
+        "titulo":"Komodo Notas",
+        "texto":"Aplicación de uso personal con sincronización de datos, multiplataforma entre web y mobile.",
+        "link": "#",
+        "imagen": "3_Notas.png",
         "iconos":[
             {
                 "nombre":"Angular"
@@ -32,43 +50,7 @@
                 "nombre":"Springboot"
             },
             {
-                "nombre":"Typescript"
-            },
-            {
-                "nombre":"Html"
-            },
-            {
-                "nombre":"Css"
-            },
-            {
-                "nombre":"Bootstrap"
-            }
-        ]
-    },
-    {
-        "id":2,
-        "titulo":"CoversShowcase",
-        "texto":"Showcase de covers musicales. Implementado con Vue y .NET.",
-        "link": "#",
-        "imagen": "3_CoversShowcase.png",
-        "iconos":[
-            {
-                "nombre":"Vue"
-            },
-            {
-                "nombre":".Net"
-            },
-            {
-                "nombre":"JS"
-            },
-            {
-                "nombre":"Html"
-            },
-            {
-                "nombre":"Css"
-            },
-            {
-                "nombre":"Bootstrap"
+                "nombre":"Ionic"
             }
         ]
     }
